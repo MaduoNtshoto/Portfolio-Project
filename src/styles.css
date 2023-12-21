@@ -41,18 +41,26 @@ p {
   line-height: 1.4;
 }
 
-.about-section {
+.content-container {
   padding: 110px 50px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 70px;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section-content {
+.content-container h3 {
+  font-size: 24px;
+  font-family: var(--default-font-family);
+}
+.content p {
+  font-size: 14px;
+  line-height: 1;
+}
+.content {
   margin: 20px;
 }
 
@@ -89,7 +97,7 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-section {
+  .content-container {
     padding: 0;
     text-align: center;
   }
