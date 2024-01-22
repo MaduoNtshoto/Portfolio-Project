@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Maduo Ntshoto is a Front-End developer based in Botswana and this page is asummary about
+      her journey of being an aspiring full-stack developer."
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -25,9 +30,34 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="src/styles.css" />
-    <title>About me</title>
+    <title>About Maduo</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/">
+          <img
+            src="media/logo.png"
+            class="logo d-none d-md-block"
+            alt="Shelogo"
+          />
+        </a>
+        <img
+          src="media/small-logo.png"
+          class="logo d-block d-md-none"
+          alt="SheCodelogo"
+        />
+
+        <ul>
+          <li><a href="/" title="homepage">Home</a></li>
+          <li class="active">
+            <a href="/about.html" title="About Maduo">About</a>
+          </li>
+          <li><a href="/work.html" title="Maduo's work">Work</a></li>
+          <li><a href="/contact.html" title="contact Maduo">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content container">
       <div class="row">
         <div class="col-lg-6">
@@ -41,13 +71,67 @@
               thought through technology and to become resourceful. My goal is
               to become a full-stack developer and bring more ideas to life.
             </p>
-            <a href="" class="btn btn-branding">View all projects</a>
+            <a href="/work.html" class="btn btn-branding">View all projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="media/facephoto.jpg" class="img-fluid" alt="" />
+          <img src="media/facephoto.jpg" class="img-fluid" alt="Maduo" />
         </div>
       </div>
+      <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mb-4 d-none d-md-flex"
+        >
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Maduo"
+            >Contact me</a
+          >
+        </div>
+        <div class="d-flex justify-content-center mb-3">
+          <a
+            href="mailto:Dntshoto@gmail.com"
+            class="email-link"
+            title="Email Maduo"
+            >Dntshoto@gmail.com</a
+          >
+        </div>
+        <div class="social-links d-flex justify-content-center mb-4">
+          <a
+            href="https://www.linkedin.com/in/maduo-ntshoto-328741182/"
+            target="_blank"
+            title="linkedin profile"
+          >
+            <i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://www.github.com/MaduoNtshoto"
+            target="_blank"
+            title="GitHub profile"
+          >
+            <i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/maduo-ntshoto"
+            target="_blank"
+            title="Instagram profile"
+          >
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <p class="text-center mt-4">
+          This project was coded by Maduo Ntshoto, it is
+          <a
+            href="https://github.com/MaduoNtshoto/Portfolio-Project.git"
+            target="_blank"
+          >
+            open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
